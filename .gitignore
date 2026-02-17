@@ -12,3 +12,6 @@ extdata/*
 outputs/*
 !outputs/README
 
+# Ignore files in scratchpad except README.md
+scratchpad/*
+!scratchpad/README.md
