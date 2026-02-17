@@ -6,9 +6,9 @@
 
 # Ignore everything in extdata except README.md
 extdata/*
-!extdata/README
+!extdata/README.md
 
 # Ignore everything in outputs except README.md
 outputs/*
-!outputs/README
+!outputs/README.md
 
