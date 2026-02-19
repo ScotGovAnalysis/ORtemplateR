@@ -6,6 +6,23 @@ what types of file should go in that directory. You can repurpose these README f
 Each README offers guidance on how to handle version control, and what to do with the directory if you want to convert your project to a package.
 In many (possibly most) cases, it will be useful to format your analysis project as a package for reproducibility and to aid documentation.
 
+
+
+\## Making a local copy of the template
+
+
+
+There are several options for using the template in your own project. We recommend one of the following:
+
+
+
+1. Clone the directory with `git clone https://github.com/ScotGovAnalysis/ORtemplateR.git`, then delete the `.git` folder. To use git version control, reinitialise the repository using `git init`
+2. Download a zip file from GitHub using the green "Code" button, and select "Download Zip". Unzip the folder. To use git version control initialise a git repo using `git init`
+
+
+
+
+
 ## This file
 
 Use this file to detail the purpose of the project, basic installation instructions, and examples of usage.
