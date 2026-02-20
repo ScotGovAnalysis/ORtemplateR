@@ -12,6 +12,19 @@ Consider Duck Book guidance on readable code (https://best-practice-and-impact.g
 
 Functions and classes should generally speaking go in the R directory, so that they can be used by different pieces of analysis.
 
+## Analysis outputs
+Scripts and markdown files should be configured to write to the `outputs` directory. To knit a markdown file to an output directory in the root folder, create a script that calls the knitting with the following command
+
+```
+rmarkdown::render(input = paste0(./analysis/, filename, "Rmd""), 
+                  output_file = output_filename,
+                  output_dir = "./outputs")
+
+
+```
+
+where `filename` is the name of the Rmd file in the analysis folder and `output_filename` is the name of the file in the output directory (including the required suffix such as `.html` or `.doc`).
+
 ## Version control
 
 Every R script and Rmarkdown in this folder should be subject to version control, e.g. through Git.
