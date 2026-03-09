@@ -39,6 +39,9 @@ the project without writing the contents to Git, add the following to the
 .gitignore:
 
 extdata/*
+
 !extdata/README.md
+
 !extdata/raw
+
 !extdata/processed

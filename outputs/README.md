@@ -32,4 +32,5 @@ project without writing the contents to Git, add the following to the
 .gitignore:
 
 outputs/*
+
 !outputs/README.md

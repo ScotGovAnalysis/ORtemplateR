@@ -27,4 +27,5 @@ directory in local versions of the project without writing the contents to Git,
 add the following to the .gitignore:
 
 extdata/raw/*
+
 !extdata/raw/README.md
