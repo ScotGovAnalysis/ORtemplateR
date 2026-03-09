@@ -4,9 +4,19 @@
 .RData
 .Ruserdata
 
-# Ignore everything in extdata except README.md
+# Ignore everything in extdata except README.md, /raw and /processed
 extdata/*
 !extdata/README.md
+!extdata/raw/
+!extdata/processed/
+
+# Ignore everything in extdata/raw except README.md
+!extdata/raw/*
+!extdata/raw/README.md
+
+# Ignore everything in extdata/processed except README.md
+!extdata/processed/*
+!extdata/processed/README.md
 
 # Ignore everything in outputs except README.md
 outputs/*
