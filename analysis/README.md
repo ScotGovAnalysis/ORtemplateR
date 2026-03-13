@@ -1,19 +1,30 @@
-This directory contains R scripts and Rmarkdown files for individual pieces of analysis. (Rmarkdown files should be set up to write to the outputs directory).
+This directory contains R scripts and Rmarkdown files for individual pieces of 
+analysis. (Rmarkdown files should be set up to write to the outputs directory).
+It can also be used for analysis in other software that is still related to the
+project, such as an Excel model that derives input data for the R analysis, or 
+that makes use of the outputs of the R analysis.
 
-Consider Duck Book guidance on modular code (https://best-practice-and-impact.github.io/qa-of-code-guidance/modular_code.html):
-* Write independent pieces of logic as functions, to minimise repetition and to make it easier to separate the project into modules
+Consider Duck Book guidance on modular code 
+(https://best-practice-and-impact.github.io/qa-of-code-guidance/modular_code.html):
+* Write independent pieces of logic as functions, to minimise repetition and to 
+make it easier to separate the project into modules
 
-Consider Duck Book guidance on readable code (https://best-practice-and-impact.github.io/qa-of-code-guidance/readable_code.html):
+Consider Duck Book guidance on readable code 
+(https://best-practice-and-impact.github.io/qa-of-code-guidance/readable_code.html):
 * Make the code easy for yourself and others to understand by:
-    * Using informative and concise variable names
-    * Using a self-consistent code style (https://style.tidyverse.org/ is an example, but what style you use is less important than being self-consistent)
-    * When writing functions (and classes), describe the purpose, inputs and outputs
-    * Use comments to describe why code is written in a particular way
+  * Using informative and concise variable names
+  * Using a self-consistent code style (https://style.tidyverse.org/ is an 
+  example, but what style you use is less important than being self-consistent)
+  * When writing functions (and classes), describe the purpose, inputs and outputs
+  * Use comments to describe why code is written in a particular way
 
-Functions and classes should generally speaking go in the R directory, so that they can be used by different pieces of analysis.
+Functions and classes should generally speaking go in the R directory, so that 
+they can be used by different pieces of analysis.
 
 ## Analysis outputs
-Scripts and markdown files should be configured to write to the `outputs` directory. To knit a markdown file to an output directory in the root folder, create a script that calls the knitting with the following command
+Scripts and markdown files should be configured to write to the `outputs` 
+directory. To knit a markdown file to an output directory in the root folder, 
+create a script that calls the knitting with the following command:
 
 ```
 rmarkdown::render(input = paste0(./analysis/, filename, "Rmd""), 
@@ -23,8 +34,16 @@ rmarkdown::render(input = paste0(./analysis/, filename, "Rmd""),
 
 ```
 
-where `filename` is the name of the Rmd file in the analysis folder and `output_filename` is the name of the file in the output directory (including the required suffix such as `.html` or `.doc`).
+where `filename` is the name of the Rmd file in the analysis folder and 
+`output_filename` is the name of the file in the output directory (including the 
+required suffix such as `.html` or `.doc`).
+
+## What to do with this README file
+
+This file can be used to explain what each part of the analysis does, and how to
+run it.
 
 ## Version control
 
-Every R script and Rmarkdown in this folder should be subject to version control, e.g. through Git.
+Every R script and Rmarkdown in this folder should be subject to version 
+control, e.g. through Git. 
