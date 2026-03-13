@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # How to use this template
 
 This template R project comprises several directories that you are
