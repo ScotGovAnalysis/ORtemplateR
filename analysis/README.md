@@ -25,6 +25,16 @@ rmarkdown::render(input = paste0(./analysis/, filename, "Rmd""),
 
 where `filename` is the name of the Rmd file in the analysis folder and `output_filename` is the name of the file in the output directory (including the required suffix such as `.html` or `.doc`).
 
+## Paths
+
+Files to paths may need to be altered depending on whether they are referenced in a script or in knitting a markdown. The `here()` package avoids the need for changing the path to a file. To read a file called "file.R" in the analysis folder, the command would be 
+
+```
+library(here)
+read.csv(here("analysis", "file.R"))
+
+```
+
 ## Version control
 
 Every R script and Rmarkdown in this folder should be subject to version control, e.g. through Git.
