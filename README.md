@@ -72,14 +72,6 @@ project that you don't want to include in the version control, such as
 data (particularly sensitive data). The template is set up to ignore
 files in the extdata and outputs directory, except for the readme.
 
-## Style guides
-
-Use a consistent styleguide in your code. Scottish Government recommends
-the [tidyverse styleguide](https://style.tidyverse.org/). Use
-[lintr](https://lintr.r-lib.org/) to flag stylistic errors and
-[formatR](https://yihui.org/formatr/) or
-[styler](https://styler.r-lib.org/) to correct formatting errors.
-Configuration files where needed are saved stored in the root directory.
 
 ## Conversion to package
 
