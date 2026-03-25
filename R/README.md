@@ -8,7 +8,7 @@ Consider Duck Book guidance on readable code (https://best-practice-and-impact.g
     * Using informative and concise variable names
     * Using a self-consistent code style (https://style.tidyverse.org/ is an example, but what style you use is less important than being self-consistent)
     * When writing functions (and classes), describe the purpose, inputs and outputs (consider using Roxygen2 formatting)
-    * Use comments to describe why code is written in a particular way
+    * Use comments to describe why code is written in a particular way. See [here](https://best-practice-and-impact.github.io/qa-of-code-guidance/code_documentation.html#comments) for guidance on commenting code.
 
 ## Version control
 
