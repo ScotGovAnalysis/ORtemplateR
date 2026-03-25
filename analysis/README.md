@@ -16,7 +16,7 @@ Consider Duck Book guidance on readable code
   * Using a self-consistent code style (https://style.tidyverse.org/ is an 
   example, but what style you use is less important than being self-consistent)
   * When writing functions (and classes), describe the purpose, inputs and outputs
-  * Use comments to describe why code is written in a particular way
+  * Use comments to describe why code is written in a particular way. See [here](https://best-practice-and-impact.github.io/qa-of-code-guidance/code_documentation.html#comments) for guidance on commenting code.
 
 Functions and classes should generally speaking go in the R directory, so that 
 they can be used by different pieces of analysis.
