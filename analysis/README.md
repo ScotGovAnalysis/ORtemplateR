@@ -43,6 +43,16 @@ required suffix such as `.html` or `.doc`).
 This file can be used to explain what each part of the analysis does, and how to
 run it.
 
+## Paths
+
+Files to paths may need to be altered depending on whether they are referenced in a script or in knitting a markdown. The `here()` package avoids the need for changing the path to a file. To read a file called "file.R" in the analysis folder, the command would be 
+
+```
+library(here)
+read.csv(here("analysis", "file.R"))
+
+```
+
 ## Version control
 
 Every R script and Rmarkdown in this folder should be subject to version 
