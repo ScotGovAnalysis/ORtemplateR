@@ -1,6 +1,6 @@
 This directory contains any files that are produced within the project and that 
 are readable by R (if they aren't produced by the project, then they go in 
-/extdata/raw and if they aren't readable by R they go in /outputs). 
+/data/raw and if they aren't readable by R they go in /outputs). 
 
 ## What to do with this README file
 
@@ -18,6 +18,6 @@ should be able to create the data using the project. If you want to maintain
 this directory in local versions of the project without writing the contents to 
 Git, add the following to the .gitignore:
 
-extdata/processed/*
+data/processed/*
 
-!extdata/processed/README.md
+!data/processed/README.md
