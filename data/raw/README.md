@@ -26,6 +26,6 @@ preferable, where possible, to use a database. If you want to maintain this
 directory in local versions of the project without writing the contents to Git, 
 add the following to the .gitignore:
 
-extdata/raw/*
+data/raw/*
 
-!extdata/raw/README.md
+!data/raw/README.md

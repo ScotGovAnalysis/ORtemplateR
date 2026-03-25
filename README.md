@@ -39,7 +39,7 @@ recommend one of the following:
     -   analysis/ used for R scripts and Rmarkdown files that run the
         analysis
     -   documentation/ documentation of purpose and ways of working
-    -   extdata/ data used by your project
+    -   data/ data used by your project
         -   processed/ for any files that are produced within the
             project
         -   raw/ for any files that are used as input data only

@@ -16,16 +16,10 @@ by the project.
 readable by R (if they aren't produced by the project, then they go in 
 /extdata/raw and if they aren't readable by R they go in /outputs)
 
-(The reason this directory is called "extdata" rather than simply "data" is that 
-data is a special folder in R packages that is specifically for R objects that 
-are available to the package user.
-To minimise disruption as and when converting a project to a package, it is 
-preferable to start with extdata. https://r-pkgs.org/data.html has more info on 
-data folders in packages.)
 
 ## What to do with this README file
 
-As long as you are not putting any files directly into the extdata folder, and
+As long as you are not putting any files directly into the data folder, and
 are instead using the /raw and /processed sub-directories, you can delete this
 file.
 
@@ -38,10 +32,10 @@ to use a database. If you want to maintain this directory in local versions of
 the project without writing the contents to Git, add the following to the 
 .gitignore:
 
-extdata/*
+data/*
 
-!extdata/README.md
+!data/README.md
 
-!extdata/raw
+!data/raw
 
-!extdata/processed
+!data/processed
