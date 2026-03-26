@@ -76,5 +76,16 @@ project that you don't want to include in Git version control, such as
 data (particularly sensitive data). The template is set up to ignore
 files in the data and outputs directory, except for the readme.
 
+## Project settings
 
+Rstudio projects can be set to automatically save your environment (variables, 
+functions, etc.) at the end of your session, and/or reload it at the start of
+the next session. This is generally bad practice because it hinders 
+reproducibility: you can end up with code that only works if the workspace is
+available, and it may be impossible to trace how that workspace was created.
+
+This template has set the project to not save or reload the workspace, even if
+your global RStudio options are set to do so. If you wish to change this, then
+you can change the project settings in RStudio or edit the .Rproj file, but do
+so at your own risk.
 
