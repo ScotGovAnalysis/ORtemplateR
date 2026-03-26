@@ -67,10 +67,15 @@ Consider including:
 
 ## Version control
 
-The .gitignore file sits in this folder. Use it to control parts of the
-project that you don't want to include in the version control, such as
+Version control is the practice of tracking and managing changes to files. 
+We recommend using [Git](https://git-scm.com/) for version control, and this 
+template is set up accordingly. Guidance for using Git in Scottish Government 
+and Git training resources can be found [here](https://scotsconnect.sharepoint.com/sites/StatisticsGroup-Org-SG/SitePages/Version-Control.aspx)
+
+The .gitignore file sits in this root folder. Use it to control parts of the
+project that you don't want to include in Git version control, such as
 data (particularly sensitive data). The template is set up to ignore
-files in the extdata and outputs directory, except for the readme.
+files in the data and outputs directory, except for the readme.
 
 
 
