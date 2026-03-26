@@ -73,21 +73,4 @@ data (particularly sensitive data). The template is set up to ignore
 files in the extdata and outputs directory, except for the readme.
 
 
-## Conversion to package
 
-Once you are comfortable with using R, it's recommended that most
-projects are structured as packages (as an example of an exception,
-Shiny dashboards are generally not packages, although even then it can
-be an advantage to have some of the functionality separated into a
-package). This template is designed to minimise the structural changes
-required, although the analysis, documentation, extdata and outputs
-directory will need to be moved into a new directory named "inst". The
-scratchpad should be deleted as this is a temporary folder (or included
-in .Rbuildignore file).
-
-Consider naming the project without using an underscore, as underscores
-are disallowed in package names. E.g. use myProject instead of
-my_project.
-
-If you are unfamiliar with developing a package, this is a useful guide:
-<https://r-pkgs.org/>
