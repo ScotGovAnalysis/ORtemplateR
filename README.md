@@ -7,9 +7,7 @@ repurpose these README files to explain the contents of the directory.
 
 Each README offers guidance on how to handle version control.
 
-In many (possibly most) cases, it will be useful to format your
-analysis project as a package for reproducibility and to aid
-documentation. Further details of the benefits of
+This template is organised as an R Project. Further details of the benefits of
 R projects can be found [here](https://scotsconnect.sharepoint.com/sites/StatisticsGroup-Org-SG/SitePages/Coding-Good-Practice.aspx#use-rstudio-projects)
 
 ## Making a local copy of the template
