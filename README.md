@@ -5,11 +5,12 @@ likely to make use of. Each directory contains its own README file to
 explain what types of file should go in that directory. You can
 repurpose these README files to explain the contents of the directory.
 
-Each README offers guidance on how to handle version control, and what
-to do with the directory if you want to convert your project to a
-package. In many (possibly most) cases, it will be useful to format your
+Each README offers guidance on how to handle version control.
+
+In many (possibly most) cases, it will be useful to format your
 analysis project as a package for reproducibility and to aid
-documentation.
+documentation. Further details of the benefits of
+R projects can be found [here](https://scotsconnect.sharepoint.com/sites/StatisticsGroup-Org-SG/SitePages/Coding-Good-Practice.aspx#use-rstudio-projects)
 
 ## Making a local copy of the template
 
