@@ -9,9 +9,11 @@ analysis in Excel, or and Excel spreadsheet that compares the results of R
 analysis with the expected value. However, for reproducibility, it's best to 
 work towards doing all R code testing in R.
 
-Refer to https://r-pkgs.org/testing-basics.html for guidance on organising 
-testing as you increase the number of tests that you've saved.
-It's recommended that you make use of the testthat package.
+Refer to 
+  <a href="https://r-pkgs.org/testing-basics.html"
+  target="_blank" rel="noopener noreferrer">
+guidance here on organising testing</a> as you increase the number of tests that 
+you've saved. It's recommended that you make use of the testthat package.
 
 ## What to do with this README file
 
