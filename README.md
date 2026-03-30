@@ -8,10 +8,7 @@ repurpose these README files to explain the contents of the directory.
 Each README offers guidance on how to handle version control.
 
 This template is organised as an R Project. Further details of the benefits of
-R projects can be found 
-  <a href="https://scotsconnect.sharepoint.com/sites/StatisticsGroup-Org-SG/SitePages/Coding-Good-Practice.aspx#use-rstudio-projects"
-  target="_blank" rel="noopener noreferrer">
-here</a>.
+R projects can be found [here](https://scotsconnect.sharepoint.com/sites/StatisticsGroup-Org-SG/SitePages/Coding-Good-Practice.aspx#use-rstudio-projects)
 
 ## Making a local copy of the template
 
@@ -70,14 +67,9 @@ Consider including:
 ## Version control
 
 Version control is the practice of tracking and managing changes to files. 
-We recommend using
-  <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">
-Git</a> for version control, and this 
+We recommend using [Git](https://git-scm.com/) for version control, and this 
 template is set up accordingly. Guidance for using Git in Scottish Government 
-and Git training resources can be found 
-  <a href="https://scotsconnect.sharepoint.com/sites/StatisticsGroup-Org-SG/SitePages/Version-Control.aspx"
-  target="_blank" rel="noopener noreferrer">
-here</a>.
+and Git training resources can be found [here](https://scotsconnect.sharepoint.com/sites/StatisticsGroup-Org-SG/SitePages/Version-Control.aspx)
 
 The .gitignore file sits in this root folder. Use it to control parts of the
 project that you don't want to include in Git version control, such as
@@ -97,3 +89,19 @@ your global RStudio options are set to do so. If you wish to change this, then
 you can change the project settings in RStudio or edit the .Rproj file, but do
 so at your own risk.
 
+## Quality Assurance
+
+Analysis projects should be quality assured. The assurance should be 
+proportionate to the potential effect it will have and the size and complexity 
+of the analysis. The level of assurance should be guided by a structured 
+assessment of the business risks.
+
+[The Aqua Book](https://www.gov.uk/guidance/the-aqua-book) explains the
+Quality Assurance process and how to tailor it to the complexity and 
+importance of your project.
+
+[The Duck Book](https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html)
+gives more specific guidance on Quality Assuring code.
+
+Quality Assurance should be logged. More information is provided in the 
+/documentation/Readme.md file.
