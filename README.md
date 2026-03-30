@@ -104,4 +104,4 @@ importance of your project.
 gives more specific guidance on Quality Assuring code.
 
 Quality Assurance should be logged. More information is provided in the 
-/documentation/Readme.md file.
+[/documentation/Readme.md](https://github.com/ScotGovAnalysis/ORtemplateR/tree/main/documentation) file.
