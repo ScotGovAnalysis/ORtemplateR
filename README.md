@@ -89,3 +89,19 @@ your global RStudio options are set to do so. If you wish to change this, then
 you can change the project settings in RStudio or edit the .Rproj file, but do
 so at your own risk.
 
+## Quality Assurance
+
+Analysis projects should be quality assured. The assurance should be 
+proportionate to the potential effect it will have and the size and complexity 
+of the analysis. The level of assurance should be guided by a structured 
+assessment of the business risks.
+
+[The Aqua Book](https://www.gov.uk/guidance/the-aqua-book) explains the
+Quality Assurance process and how to tailor it to the complexity and 
+importance of your project.
+
+[The Duck Book](https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html)
+gives more specific guidance on Quality Assuring code.
+
+Quality Assurance should be logged. More information is provided in the 
+/documentation/Readme.md file.

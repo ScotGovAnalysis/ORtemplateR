@@ -2,11 +2,14 @@ This directory contains files that explain to others (and possibly your future
 self) your goals and ways of working.
 
 Examples of files to include:
+
 * Assumptions log - Supports QA and enables a reproducible environment
 * Data log - Helps manage project data in order to enable a reproducible 
 environment
 * Project specification - Lays out the purpose of the project and the criteria 
 on which it will be judged, which is necessary to validate the project
+* Quality Assurance log - Records the history of Quality Assurance for the
+project. [Find template logs here](https://scotsconnect.sharepoint.com/:f:/r/sites/OperationalResearch-Org-SG/Shared%20Documents/General/Quality%20Assurance/Logs?csf=1&web=1&e=aVpEIL)
 
 It may be preferable to store some or all of these documentation files elsewhere, 
 like erdm or sharepoint.
