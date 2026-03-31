@@ -17,20 +17,20 @@ recommend one of the following:
 
 1.  Clone the directory with
     `git clone https://github.com/ScotGovAnalysis/ORtemplateR.git`
-    a.  then delete the `.git` folder and the LICENCE file.
-    b.  rename the .RProj file and the directory to the new name of your
+    1.  then delete the `.git` folder and the LICENCE file.
+    2.  rename the .RProj file and the directory to the new name of your
         project
-    c.  to use git version control, reinitialise the repository using
+    3.  to use git version control, reinitialise the repository using
         `git init`
-    d.  add suitable licence if making the repo public
+    4.  add suitable licence if making the repo public
 2.  Download a zip file from GitHub using the green "Code" button, and
     select "Download Zip".
-    a.  Unzip the folder.
-    b.  rename the .RProj file and the directory to the new name of your
+    1.  Unzip the folder.
+    2.  rename the .RProj file and the directory to the new name of your
         project
-    c.  to use git version control, reinitialise the repository using
+    3.  to use git version control, reinitialise the repository using
         `git init`
-    d.  add suitable licence if making the repo public
+    4.  add suitable licence if making the repo public
 
 ## Template folder structure
 
